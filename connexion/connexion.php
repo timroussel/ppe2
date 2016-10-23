@@ -3,27 +3,27 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
-        <title>Inscription</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <title>Connexion</title>
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <img src="../img/7892.png" alt="Gefor" class="center-block img-circle">
-                    <h1 class="text-center">Formulaire d'inscription</h1>
+                    <h1 class="text-center">Formulaire de connexion</h1>
                 </div>
-            </div> 
+            </div>             
             <?php
             if(isset($error)){
                 echo('<div class="alert alert-danger" role="alert"> <strong>Erreur !</strong> '.$error.'</div>');
             }
-            if(isset($success)){
-                ?>
-                <div class="alert alert-success" role="alert"> <strong>Félicitations !</strong> votre inscription est prise en compte.</div>
-                <a href="../connexion/connexion.php">Connectez vous</a>
-                <?php
-            }else{
+            if(isset($success) && $success){
+            ?>
+                <div class="alert alert-success" role="alert"><strong>Félicitations !</strong> vous voilà connecter.</div>
+            <?php
+            }
+            else{
                 include("form.php");
             }
             ?>

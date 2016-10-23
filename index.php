@@ -14,8 +14,8 @@
                 </div>
             </div> 
             <div class="row">
-                <a href="inscription/inscription.php" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok"></span> Inscription</a>
-                <a href="connexion.php" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-user"></span> Connexion</a>
+                <a href="inscription/inscription.php" class="col-md-offset-4 col-md-2 btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok"></span> Inscription</a>
+                <a href="connexion/connexion.php" class="col-md-2 btn btn-lg btn-success"><span class="glyphicon glyphicon-user"></span> Connexion</a>
             </div>
         </div>
     </body>
