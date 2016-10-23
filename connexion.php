@@ -13,7 +13,7 @@
             $_POST = print_r("");
         }
         ?> 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <img src="img/7892.png" alt="Gefor" class="center-block img-circle">
