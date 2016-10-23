@@ -12,7 +12,7 @@
         {
             $_POST = print_r("");
         }
-        ?>
+        ?> 
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
